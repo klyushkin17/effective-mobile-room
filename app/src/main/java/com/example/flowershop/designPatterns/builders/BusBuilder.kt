@@ -1,6 +1,9 @@
-package com.example.flowershop.designPatterns
+package com.example.flowershop.designPatterns.builders
 
-class CarBuilder: ICarBuilder {
+import com.example.flowershop.designPatterns.cars.Bus
+import com.example.flowershop.designPatterns.cars.Car
+
+class BusBuilder: ICarBuilder {
     private var speed = 100
     private var amountOfWheels = 4
     private var capacity = 5
@@ -17,5 +20,5 @@ class CarBuilder: ICarBuilder {
         this.capacity = capacity
     }
 
-    override fun build(): Car = Car(speed, amountOfWheels, capacity)
+    override fun build(): Car = Bus(speed, amountOfWheels, capacity)
 }

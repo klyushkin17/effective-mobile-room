@@ -1,4 +1,6 @@
-package com.example.flowershop.designPatterns
+package com.example.flowershop.designPatterns.builders
+
+import com.example.flowershop.designPatterns.cars.Car
 
 interface ICarBuilder {
 
