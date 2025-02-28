@@ -10,4 +10,5 @@ data class FlowerEntity (
     @ColumnInfo(name = "flower_id") val flowerId: Int,
     @ColumnInfo(name = "flower_name") val flowerName: String,
     @ColumnInfo(name = "flower_price") val flowerPrice: Float,
+    @ColumnInfo(name = "origin_country") val originCountry: String?,
 )

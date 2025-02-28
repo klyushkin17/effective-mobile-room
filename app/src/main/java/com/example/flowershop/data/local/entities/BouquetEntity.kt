@@ -10,6 +10,7 @@ data class BouquetEntity (
     @ColumnInfo(name = "bouquet_id") val bouquetId: Int,
     @ColumnInfo(name = "bouquet_name") val bouquetName: String,
     @ColumnInfo(name = "bouquet_price") val bouquetPrice: Float,
+    @ColumnInfo(name = "bouquet_decoration") val bouquetDecoration: String?,
 )
 
 

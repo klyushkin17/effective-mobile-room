@@ -12,7 +12,7 @@ import com.example.flowershop.data.local.entities.FlowerEntity
         FlowerEntity::class,
         FlowerBouquetCrossRef::class,
     ],
-    version = 1
+    version = 2
 )
 abstract class FlowerShopDatabase: RoomDatabase() {
 
